@@ -1,0 +1,91 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}   
+.ddata{
+  
+ 
+  border:1px solid red;
+ 
+  
+}
+#myDiv{
+  background-color:#ffff;
+
+
+
+}
+#about{
+  background-image: url("assets/images/background8.jpg");
+
+
+
+   background-repeat:no-repeat;
+   background-size:100% 100%;
+width:100%;
+height:auto;
+}
+.roundedTable{
+  border-radius:2.2rem;
+  overflow:hidden;
+  width:100%;
+  border-collapse:collapse;
+  border:none;
+}
+/* new css */
+.content1{
+  margin-top:60px;
+}
+.text1{
+  background-color:#2cb6e6;
+}
+.text2{
+  background-color:#ffab8f;
+}
+.demo{
+  padding:30px;
+  background-color:#1e4b72;
+}
+.demo2{
+  border-radius: 15px 15px;
+}
+.paragraph{
+  font-size:10px;
+}
+.head{
+  border-radius: 15px 50px;
+}
+.paragraph2{
+  font-size:16px;
+   line-height: 1.6;
+   padding:15px;
+}
+.head2{
+  border-radius: 15px 50px;
+}
+.paragraph3{
+  font-size:16px;
+   line-height: 1.6;
+   padding:15px;
+}
+/*.table1{*/
+/*  background-color:#53565b;*/
+/*}*/
+
+.well{
+    padding:0px!important;
+    min-height:0px!important;
+}
+.header{
+    margin-top:200px;
+}
+
+       @media only screen and (min-width:0px and max-width:625px){
+                
+           .header{
+    margin-top:100px;
+}
+                 
+           
+            }

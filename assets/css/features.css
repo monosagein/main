@@ -1,0 +1,90 @@
+/* inline css */
+.head1{
+  text-align:center;
+}
+
+
+
+/* new feature css */
+body{
+  background-color:#f0f1f5 !important;
+}
+.img-size{
+  width:100%;
+  height:30vh;
+  object-fit:contain;
+}
+.content{
+  background-color:#ffff;
+  border-radius:30px;
+  margin-bottom:30px;
+  padding:8px;
+  margin:60px;
+}
+.fcard{
+  background: linear-gradient(110deg, #b8a081 60%,#ffffff 60%);
+   /* width: 30rem; */
+   border:none !important; 
+  border-radius:20px !important;
+}
+
+
+
+
+
+.carh{
+     
+    width:100%;
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+  color:black;
+  border:none !important;
+
+}
+.carh .btn{
+
+margin-left:80px;
+
+} 
+
+
+ .carh:hover{
+  background:#282120;
+  opacity:0.6;
+  transition: 2s;
+  
+  color:white;
+  
+} 
+.star{
+  padding:20px;
+}
+.star:hover::before{
+background-color: #F1615A;
+transition: 2s;
+}
+.star:hover::after{
+background-color: #E0F2E9;
+transition: 2s;
+}
+.star:hover img{
+transform: rotate(0) scale(1.5) translateZ(0);
+/* -webkit-filter: drop-shadow(0 20px 20px  rgba(0, 0, 0, 0.70)); */
+/* filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.70)); */
+transition: 2s;
+}
+.bttn-h{
+  margin-top:15px;
+ 
+}
+h5{
+  letter-spacing:0.5px;
+}
+
+  
+@media only screen and (max-width: 495px){
+  .card{
+    margin:auto;
+  }
+  
+}
