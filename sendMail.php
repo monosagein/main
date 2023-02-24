@@ -10,6 +10,10 @@ if(isset($_POST["submit-form"])){
  
   $phone = $_POST["phone"] ;
   $messege=$_POST["message"];
+
+
+
+  
   
   // data base 
   $date = date('Y-m-d');
