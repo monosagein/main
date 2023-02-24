@@ -1,14 +1,14 @@
 <?php
 include ('admin/db_connect.php')
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> About | ElegoMotors</title>
+    <title> About | ElegoMotors </title>
      <!--favicon -->
     <link rel="icon" type="image/x-icon" href="assets\images\favicon.png">
     <!--discription -->
@@ -164,7 +164,7 @@ body{
   </svg>
   <div class="header mb-5">
   <h2 class="display-s ban-content">Ride the change!</h2>
-  <h4 style="">The new-generation electric scooter</h4>
+  <h4 style="">The new-generation Electric Scooter</h4>
 </div>
 </div>
 
